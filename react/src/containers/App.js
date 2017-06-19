@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
-import Home from '../containers/Home';
 
 class App extends Component {
   constructor(props){
@@ -11,11 +10,7 @@ class App extends Component {
 
   render() {
     return(
-      <Router history={browserHistory}>
-        <Route>
-          <Route path="/" component={Home}/>
-        </Route>
-      </Router>
+      <h1>Page here</h1>
     )
   }
 }
