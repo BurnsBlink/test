@@ -7,14 +7,14 @@ default: &default
 
 development:
   <<: *default
-  database: amoretalla_development
+  database: biodiversity_development
 
 test:
   <<: *default
-  database: amoretalla_test
+  database: biodiversity_test
 
 production:
   <<: *default
-  database: amoretalla_production
-  username: amoretalla
-  password: <%= ENV['AMORETALLA_DATABASE_PASSWORD'] %>
+  database: biodiversity_production
+  username: biodiversity
+  password: <%= ENV['biodiversity_DATABASE_PASSWORD'] %>
