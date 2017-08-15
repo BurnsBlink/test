@@ -1,0 +1,42 @@
+button:focus {outline:0;}
+
+.home {
+  background-image: image-url("tree.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+}
+
+.intro-questions {
+  width: 170px;
+  height: 75px;
+  background: lightgrey;
+  color: #00af37;
+  border: 1px solid #00af37;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.intro-questions:hover{
+  background: #00af37;
+  color: white;
+  opacity: 1;
+}
+
+.life-tree {
+  width: 170px;
+  height: 75px;
+  margin: 15px;
+  background: lightgrey;
+  color: #0043af;
+  border: 1px solid #0043af;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.life-tree:hover{
+  background: #0043af;
+  color: white;
+  opacity: 1;
+}
